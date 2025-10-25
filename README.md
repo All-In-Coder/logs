@@ -63,18 +63,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Database Setup
+### 3. Environment Variables
 
-1. Create a PostgreSQL database:
-```sql
-CREATE DATABASE day_logger;
-```
+Create a `.env` file in the `backend` directory with the following content:
 
-2. Update the `.env` file in the `backend` directory with your database credentials:
 ```
-DATABASE_URL=postgresql://username:password@localhost:5432/day_logger
-SECRET_KEY=your-secret-key-change-in-production
-ENVIRONMENT=development
+MONGO_USERNAME=example
+MONGO_PASSWORD=example
+MONGO_CLUSTER=example
+MONGO_DBNAME=example
 ```
 
 ### 4. Frontend Setup
