@@ -63,7 +63,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Get MongoDB Credentials
+### 3. Get MongoDB Credentials
 
 You’ll need MongoDB credentials to connect your backend to the database.
 
