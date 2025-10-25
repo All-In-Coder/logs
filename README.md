@@ -23,8 +23,6 @@ A modern web application for logging your daily activities with time tracking, b
 
 ### Backend
 - FastAPI (Python)
-- SQLAlchemy ORM
-- PostgreSQL database
 - Pydantic for data validation
 
 ## Prerequisites
@@ -33,7 +31,6 @@ Before you begin, ensure you have the following installed:
 
 - Node.js (v14 or higher)
 - Python (v3.8 or higher)
-- PostgreSQL (v12 or higher)
 - npm or yarn
 
 ## Installation
