@@ -63,7 +63,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Environment Variables
+### 2. Get MongoDB Credentials
+
+You’ll need MongoDB credentials to connect your backend to the database.
+
+1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+2. Create a **free cluster** (if you don’t already have one)
+3. In **Database Access**, create a new user with a secure password
+4. In **Network Access**, allow connections from your IP or `0.0.0.0/0`
+5. Copy your connection string from  
+   **Database → Connect → Drivers**
+
+### 4. Environment Variables
 
 Create a `.env` file in the `backend` directory with the following content:
 
@@ -74,7 +85,7 @@ MONGO_CLUSTER=example
 MONGO_DBNAME=example
 ```
 
-### 4. Frontend Setup
+### 5. Frontend Setup
 
 ```bash
 cd frontend
